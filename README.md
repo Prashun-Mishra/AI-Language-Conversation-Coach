@@ -4,6 +4,30 @@ LinguaAI is an interactive, voice-based AI Language Conversation Coach designed 
 
 ---
 
+## 📸 User Interface Preview & Walkthrough
+
+Here is the step-by-step user journey of using **LinguaAI**:
+
+### 1. Welcome & Hero Dashboard
+![1. Welcome Dashboard](images/Screenshot%202026-06-02%20183439.png)
+
+### 2. Language Selection
+![2. Choose Language](images/Screenshot%202026-06-02%20183445.png)
+
+### 3. Scenario Selection & Session Activation
+![3. Choose Scenario](images/Screenshot%202026-06-02%20183454.png)
+
+### 4. Active Conversation Session (Nancy Speaking)
+![4. Conversing with Nancy](images/Screenshot%202026-06-02%20183512.png)
+
+### 5. Session Complete & Performance Ratings
+![5. Fluency and Grammar Scores](images/Screenshot%202026-06-02%20183411.png)
+
+### 6. Detailed Analytical Feedback Report
+![6. Mistakes and Tips Table](images/Screenshot%202026-06-02%20183427.png)
+
+---
+
 ## 🚀 Key Features & Functionality
 
 ### 1. Multi-Language & Scenario Selection
@@ -95,9 +119,10 @@ graph TD
 │   ├── app.py             # Flask Server, Agent logic, AssemblyAI/Murf AI endpoints
 │   ├── .env               # API Keys & Configurations
 │   └── __pycache__/
-└── frontend/
-    ├── index.html         # Application Markup & Design Layout
-    └── index.js           # Client-Side Application Logic (audio recorders, fetch, visuals)
+├── frontend/
+│   ├── index.html         # Application Markup & Design Layout
+│   └── index.js           # Client-Side Application Logic (audio recorders, fetch, visuals)
+└── images/                # Application Screenshots and Assets
 ```
 
 ---
